@@ -94,8 +94,9 @@ class Media {
       description:
           Description.parse(findElementOrNull(element, 'media:description')),
       keywords: findElementOrNull(element, 'media:keywords')?.innerText,
+      // SNG - only this one fix, findElements to findAllElements
       thumbnails: element
-          .findElements('media:thumbnail')
+          .findAllElements('media:thumbnail')
           .map((e) => Thumbnail.parse(e))
           .toList(),
       hash: Hash.parse(findElementOrNull(element, 'media:hash')),
