@@ -12,25 +12,28 @@ A dart package for parsing RSS1.0 / RSS2.0 / Atom feed.
 - [x] RSS 2.0
 - [x] Atom
 - [x] Namespaces
-    - [x] Media RSS
-    - [x] Dublin Core
-    - [x] Podcast
+  - [x] Media RSS
+  - [x] Dublin Core
+  - [x] Podcast
 
 ### Installing
 
 Add this line into your `pubspec.yaml`
+
 ```
 rss_dart: ^1.0.8
 ```
 
 Import the package into your dart code using:
+
 ```
-import 'package:rss_dart/dart_rss.dart';
+import 'package:rss_dart_fixed/dart_rss.dart';
 ```
 
 ### Example
 
 To parse string into `RssFeed` object use:
+
 ```
 var rssFeed = new RssFeed.parse(xmlString); // for parsing RSS 2.0 feed
 var atomFeed = new AtomFeed.parse(xmlString); // for parsing Atom feed
@@ -40,6 +43,7 @@ var rss1Feed = new Rss1Feed.parse(xmlString); // for parsing RSS 1.0 feed
 ### Preview
 
 **RSS**
+
 ```
 feed.title
 feed.description
@@ -79,6 +83,7 @@ item.dc
 ```
 
 **Atom**
+
 ```
 feed.id
 feed.title
@@ -111,6 +116,7 @@ item.media
 ```
 
 **RSS 1.0**
+
 ```
 feed.title
 feed.description

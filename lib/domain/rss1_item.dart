@@ -1,5 +1,5 @@
-import 'package:rss_dart/domain/rss_content.dart';
-import 'package:rss_dart/util/helpers.dart';
+import 'package:rss_dart_fixed/domain/rss_content.dart';
+import 'package:rss_dart_fixed/util/helpers.dart';
 import 'package:xml/xml.dart';
 
 import 'dublin_core/dublin_core.dart';

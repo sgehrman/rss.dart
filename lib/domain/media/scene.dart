@@ -1,4 +1,4 @@
-import 'package:rss_dart/util/helpers.dart';
+import 'package:rss_dart_fixed/util/helpers.dart';
 import 'package:xml/xml.dart';
 
 class Scene {

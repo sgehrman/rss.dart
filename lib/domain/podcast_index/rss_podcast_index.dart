@@ -1,11 +1,11 @@
-import 'package:rss_dart/domain/podcast_index/rss_podcast_index_block.dart';
-import 'package:rss_dart/domain/podcast_index/rss_podcast_index_funding.dart';
-import 'package:rss_dart/domain/podcast_index/rss_podcast_index_license.dart';
-import 'package:rss_dart/domain/podcast_index/rss_podcast_index_person.dart';
-import 'package:rss_dart/domain/podcast_index/rss_podcast_index_remote_item.dart';
-import 'package:rss_dart/domain/podcast_index/rss_podcast_index_value.dart';
-import 'package:rss_dart/domain/podcast_index/rss_podcast_index_locked.dart';
-import 'package:rss_dart/util/helpers.dart';
+import 'package:rss_dart_fixed/domain/podcast_index/rss_podcast_index_block.dart';
+import 'package:rss_dart_fixed/domain/podcast_index/rss_podcast_index_funding.dart';
+import 'package:rss_dart_fixed/domain/podcast_index/rss_podcast_index_license.dart';
+import 'package:rss_dart_fixed/domain/podcast_index/rss_podcast_index_person.dart';
+import 'package:rss_dart_fixed/domain/podcast_index/rss_podcast_index_remote_item.dart';
+import 'package:rss_dart_fixed/domain/podcast_index/rss_podcast_index_value.dart';
+import 'package:rss_dart_fixed/domain/podcast_index/rss_podcast_index_locked.dart';
+import 'package:rss_dart_fixed/util/helpers.dart';
 import 'package:xml/xml.dart';
 
 class RssPodcastIndex {

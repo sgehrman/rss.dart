@@ -1,4 +1,4 @@
-import 'package:rss_dart/domain/podcast_index/rss_podcast_index_value_recipient.dart';
+import 'package:rss_dart_fixed/domain/podcast_index/rss_podcast_index_value_recipient.dart';
 import 'package:xml/xml.dart';
 
 class RssPodcastIndexValue {

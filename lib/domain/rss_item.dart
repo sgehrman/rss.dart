@@ -1,11 +1,11 @@
-import 'package:rss_dart/domain/dublin_core/dublin_core.dart';
-import 'package:rss_dart/domain/media/media.dart';
-import 'package:rss_dart/domain/rss_category.dart';
-import 'package:rss_dart/domain/rss_content.dart';
-import 'package:rss_dart/domain/rss_enclosure.dart';
-import 'package:rss_dart/domain/rss_item_podcast_index.dart';
-import 'package:rss_dart/domain/rss_source.dart';
-import 'package:rss_dart/util/helpers.dart';
+import 'package:rss_dart_fixed/domain/dublin_core/dublin_core.dart';
+import 'package:rss_dart_fixed/domain/media/media.dart';
+import 'package:rss_dart_fixed/domain/rss_category.dart';
+import 'package:rss_dart_fixed/domain/rss_content.dart';
+import 'package:rss_dart_fixed/domain/rss_enclosure.dart';
+import 'package:rss_dart_fixed/domain/rss_item_podcast_index.dart';
+import 'package:rss_dart_fixed/domain/rss_source.dart';
+import 'package:rss_dart_fixed/util/helpers.dart';
 import 'package:xml/xml.dart';
 
 import 'rss_item_itunes.dart';

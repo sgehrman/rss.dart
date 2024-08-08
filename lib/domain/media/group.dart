@@ -1,8 +1,8 @@
-import 'package:rss_dart/domain/media/category.dart';
-import 'package:rss_dart/domain/media/content.dart';
-import 'package:rss_dart/domain/media/credit.dart';
-import 'package:rss_dart/domain/media/rating.dart';
-import 'package:rss_dart/util/helpers.dart';
+import 'package:rss_dart_fixed/domain/media/category.dart';
+import 'package:rss_dart_fixed/domain/media/content.dart';
+import 'package:rss_dart_fixed/domain/media/credit.dart';
+import 'package:rss_dart_fixed/domain/media/rating.dart';
+import 'package:rss_dart_fixed/util/helpers.dart';
 import 'package:xml/xml.dart';
 
 class Group {
